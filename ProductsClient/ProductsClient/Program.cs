@@ -13,7 +13,7 @@ namespace ProductsClient
         static void Main(string[] args)
         {
             // Create a proxy object and connect to the service
-            ProductsServiceClient proxy = new ProductsServiceClient();
+            ProductsServiceClient proxy = new ProductsServiceClient("NetTcpBinding_IProductsService");
 
             // Test the operations in the service
 
